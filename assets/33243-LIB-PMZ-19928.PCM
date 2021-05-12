@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--COMAC-->
+<!--ce fichier est une étude COMAC générée par COMAC Version 4.60a, du 02/07/2019 -->
+<Etude>
+<Version>4.60</Version>
+<!--Données générales-->
+<Description></Description>
+<Operateur>ENGIE</Operateur>
+<NomCorrespondant>Orange</NomCorrespondant>
+<TelCorrespondant></TelCorrespondant>
+<DistEnergie>Enedis</DistEnergie>
+<DateEnregistrement>25/03/2021</DateEnregistrement>
+<Commune>Libourne</Commune>
+<Insee>33243</Insee>
+<Rue>Avenue Georges Pompidou</Rue>
+<NumEtude></NumEtude>
+<NumAffaire></NumAffaire>
+<Commentaire></Commentaire>
+<optEtudeRaccordement>0</optEtudeRaccordement>
+<optOpenStreetMap>0</optOpenStreetMap>
+<!--Hypothèses climatiques-->
+<Hypotheses>
+   <Hypothese>A1-3</Hypothese>
+   <Hypothese>B1</Hypothese>
+   <Hypothese>DP1</Hypothese>
+</Hypotheses>
+<!--Supports-->
+<Supports>
+   <Support>
+      <Nom>NC0001</Nom>
+      <Facade>0</Facade>
+      <Nature>BE</Nature>
+      <Hauteur>11</Hauteur>
+      <Classe>A</Classe>
+      <Effort>1,5</Effort>
+      <Orientation>390</Orientation>
+      <Etat>Bon état</Etat>
+      <Commentaire></Commentaire>
+      <BranchementsBT>0</BranchementsBT>
+      <optBranchementsTelExistants>0</optBranchementsTelExistants>
+      <optBandeauVertAPoser>0</optBandeauVertAPoser>
+      <optBandeauVertExistant>0</optBandeauVertExistant>
+      <ReservationEP>0</ReservationEP>
+      <PresenceEP>1</PresenceEP>
+      <HauteurEP>9</HauteurEP>
+      <APoser>0</APoser>
+      <NonCalcule>1</NonCalcule>
+      <Illisible>1</Illisible>
+      <Surimplantation>0</Surimplantation>
+      <X>444571,2</X>
+      <Y>6430938</Y>
+      <Z>0</Z>
+      <Annee></Annee>
+      <optMALTBT>0</optMALTBT>
+      <RASBT>0</RASBT>
+      <RASFT>0</RASFT>
+      <RASCO>0</RASCO>
+      <RASFO>0</RASFO>
+      <optMALTCuivre>0</optMALTCuivre>
+      <optMALTCoaxial>0</optMALTCoaxial>
+      <optBoitierCuivre>0</optBoitierCuivre>
+      <optBoitierCoaxial>0</optBoitierCoaxial>
+      <optBoitierFibre>0</optBoitierFibre>
+      <NbRaccordementsCuivre>0</NbRaccordementsCuivre>
+      <NbRaccordementsCoaxial>0</NbRaccordementsCoaxial>
+      <NbRaccordementsFibre>0</NbRaccordementsFibre>
+   </Support>
+   <Support>
+      <Nom>NCBT05</Nom>
+      <Facade>0</Facade>
+      <Nature>BE</Nature>
+      <Hauteur>11</Hauteur>
+      <Classe>A</Classe>
+      <Effort>8</Effort>
+      <Orientation>179</Orientation>
+      <Etat>Bon état</Etat>
+      <Commentaire></Commentaire>
+      <BranchementsBT>4</BranchementsBT>
+      <optBranchementsTelExistants>0</optBranchementsTelExistants>
+      <optBandeauVertAPoser>0</optBandeauVertAPoser>
+      <optBandeauVertExistant>0</optBandeauVertExistant>
+      <ReservationEP>0</ReservationEP>
+      <PresenceEP>1</PresenceEP>
+      <HauteurEP>8</HauteurEP>
+      <APoser>0</APoser>
+      <NonCalcule>1</NonCalcule>
+      <Illisible>1</Illisible>
+      <Surimplantation>0</Surimplantation>
+      <X>444566</X>
+      <Y>6430899,3</Y>
+      <Z>0</Z>
+      <Annee></Annee>
+      <optMALTBT>0</optMALTBT>
+      <RASBT>1</RASBT>
+      <RASFT>1</RASFT>
+      <RASCO>0</RASCO>
+      <RASFO>0</RASFO>
+      <optMALTCuivre>0</optMALTCuivre>
+      <optMALTCoaxial>0</optMALTCoaxial>
+      <optBoitierCuivre>0</optBoitierCuivre>
+      <optBoitierCoaxial>0</optBoitierCoaxial>
+      <optBoitierFibre>0</optBoitierFibre>
+      <NbRaccordementsCuivre>0</NbRaccordementsCuivre>
+      <NbRaccordementsCoaxial>0</NbRaccordementsCoaxial>
+      <NbRaccordementsFibre>0</NbRaccordementsFibre>
+      <TraverseExistante1>6,5</TraverseExistante1>
+      <TraverseAPoser2>6,7</TraverseAPoser2>
+   </Support>
+   <Support>
+      <Nom>NC0002</Nom>
+      <Facade>0</Facade>
+      <Nature>BE</Nature>
+      <Hauteur>10</Hauteur>
+      <Classe>A</Classe>
+      <Effort>1,5</Effort>
+      <Orientation>279</Orientation>
+      <Etat>Bon état</Etat>
+      <Commentaire></Commentaire>
+      <BranchementsBT>0</BranchementsBT>
+      <optBranchementsTelExistants>0</optBranchementsTelExistants>
+      <optBandeauVertAPoser>0</optBandeauVertAPoser>
+      <optBandeauVertExistant>0</optBandeauVertExistant>
+      <ReservationEP>1</ReservationEP>
+      <PresenceEP>0</PresenceEP>
+      <HauteurEP>0</HauteurEP>
+      <APoser>0</APoser>
+      <NonCalcule>1</NonCalcule>
+      <Illisible>1</Illisible>
+      <Surimplantation>0</Surimplantation>
+      <X>444558,5</X>
+      <Y>6430877,5</Y>
+      <Z>0</Z>
+      <Annee></Annee>
+      <optMALTBT>0</optMALTBT>
+      <RASBT>0</RASBT>
+      <RASFT>0</RASFT>
+      <RASCO>0</RASCO>
+      <RASFO>0</RASFO>
+      <optMALTCuivre>0</optMALTCuivre>
+      <optMALTCoaxial>0</optMALTCoaxial>
+      <optBoitierCuivre>0</optBoitierCuivre>
+      <optBoitierCoaxial>0</optBoitierCoaxial>
+      <optBoitierFibre>0</optBoitierFibre>
+      <NbRaccordementsCuivre>0</NbRaccordementsCuivre>
+      <NbRaccordementsCoaxial>0</NbRaccordementsCoaxial>
+      <NbRaccordementsFibre>0</NbRaccordementsFibre>
+   </Support>
+   <Support>
+      <Nom>NCBT06</Nom>
+      <Facade>0</Facade>
+      <Nature>BE</Nature>
+      <Hauteur>11</Hauteur>
+      <Classe>A</Classe>
+      <Effort>3</Effort>
+      <Orientation>378,5</Orientation>
+      <Etat>Bon état</Etat>
+      <Commentaire></Commentaire>
+      <BranchementsBT>4</BranchementsBT>
+      <optBranchementsTelExistants>0</optBranchementsTelExistants>
+      <optBandeauVertAPoser>0</optBandeauVertAPoser>
+      <optBandeauVertExistant>0</optBandeauVertExistant>
+      <ReservationEP>0</ReservationEP>
+      <PresenceEP>1</PresenceEP>
+      <HauteurEP>7,2</HauteurEP>
+      <APoser>0</APoser>
+      <NonCalcule>1</NonCalcule>
+      <Illisible>0</Illisible>
+      <Surimplantation>0</Surimplantation>
+      <X>444547,1</X>
+      <Y>6430841,1</Y>
+      <Z>0</Z>
+      <Annee>1965</Annee>
+      <optMALTBT>0</optMALTBT>
+      <RASBT>0</RASBT>
+      <RASFT>0</RASFT>
+      <RASCO>0</RASCO>
+      <RASFO>0</RASFO>
+      <optMALTCuivre>0</optMALTCuivre>
+      <optMALTCoaxial>0</optMALTCoaxial>
+      <optBoitierCuivre>0</optBoitierCuivre>
+      <optBoitierCoaxial>0</optBoitierCoaxial>
+      <optBoitierFibre>0</optBoitierFibre>
+      <NbRaccordementsCuivre>0</NbRaccordementsCuivre>
+      <NbRaccordementsCoaxial>0</NbRaccordementsCoaxial>
+      <NbRaccordementsFibre>0</NbRaccordementsFibre>
+      <TraverseExistante1>6</TraverseExistante1>
+      <TraverseAPoser2>6,2</TraverseAPoser2>
+   </Support>
+   <Support>
+      <Nom>NC0003</Nom>
+      <Facade>0</Facade>
+      <Nature>BE</Nature>
+      <Hauteur>11</Hauteur>
+      <Classe>A</Classe>
+      <Effort>1,5</Effort>
+      <Orientation>380</Orientation>
+      <Etat>Bon état</Etat>
+      <Commentaire></Commentaire>
+      <BranchementsBT>0</BranchementsBT>
+      <optBranchementsTelExistants>0</optBranchementsTelExistants>
+      <optBandeauVertAPoser>0</optBandeauVertAPoser>
+      <optBandeauVertExistant>0</optBandeauVertExistant>
+      <ReservationEP>0</ReservationEP>
+      <PresenceEP>1</PresenceEP>
+      <HauteurEP>7,2</HauteurEP>
+      <APoser>0</APoser>
+      <NonCalcule>1</NonCalcule>
+      <Illisible>1</Illisible>
+      <Surimplantation>0</Surimplantation>
+      <X>444536,3</X>
+      <Y>6430814,1</Y>
+      <Z>0</Z>
+      <Annee></Annee>
+      <optMALTBT>0</optMALTBT>
+      <RASBT>0</RASBT>
+      <RASFT>0</RASFT>
+      <RASCO>0</RASCO>
+      <RASFO>0</RASFO>
+      <optMALTCuivre>0</optMALTCuivre>
+      <optMALTCoaxial>0</optMALTCoaxial>
+      <optBoitierCuivre>0</optBoitierCuivre>
+      <optBoitierCoaxial>0</optBoitierCoaxial>
+      <optBoitierFibre>0</optBoitierFibre>
+      <NbRaccordementsCuivre>0</NbRaccordementsCuivre>
+      <NbRaccordementsCoaxial>0</NbRaccordementsCoaxial>
+      <NbRaccordementsFibre>0</NbRaccordementsFibre>
+   </Support>
+   <Support>
+      <Nom>NC0004</Nom>
+      <Facade>0</Facade>
+      <Nature>BE</Nature>
+      <Hauteur>11</Hauteur>
+      <Classe>A</Classe>
+      <Effort>1,5</Effort>
+      <Orientation>70</Orientation>
+      <Etat>Bon état</Etat>
+      <Commentaire></Commentaire>
+      <BranchementsBT>0</BranchementsBT>
+      <optBranchementsTelExistants>0</optBranchementsTelExistants>
+      <optBandeauVertAPoser>0</optBandeauVertAPoser>
+      <optBandeauVertExistant>0</optBandeauVertExistant>
+      <ReservationEP>0</ReservationEP>
+      <PresenceEP>1</PresenceEP>
+      <HauteurEP>8</HauteurEP>
+      <APoser>0</APoser>
+      <NonCalcule>1</NonCalcule>
+      <Illisible>1</Illisible>
+      <Surimplantation>0</Surimplantation>
+      <X>444545,6</X>
+      <Y>6430906,1</Y>
+      <Z>0</Z>
+      <Annee></Annee>
+      <optMALTBT>0</optMALTBT>
+      <RASBT>0</RASBT>
+      <RASFT>0</RASFT>
+      <RASCO>0</RASCO>
+      <RASFO>0</RASFO>
+      <optMALTCuivre>0</optMALTCuivre>
+      <optMALTCoaxial>0</optMALTCoaxial>
+      <optBoitierCuivre>0</optBoitierCuivre>
+      <optBoitierCoaxial>0</optBoitierCoaxial>
+      <optBoitierFibre>0</optBoitierFibre>
+      <NbRaccordementsCuivre>0</NbRaccordementsCuivre>
+      <NbRaccordementsCoaxial>0</NbRaccordementsCoaxial>
+      <NbRaccordementsFibre>0</NbRaccordementsFibre>
+   </Support>
+</Supports>
+<!--Portées-->
+<Portees>
+   <Portee>
+      <Longueur>39</Longueur>
+      <Angle>291</Angle>
+      <SuppG>NC0001</SuppG>
+      <SuppD>NCBT05</SuppD>
+      <Route>1</Route>
+      <PosRoute>30</PosRoute>
+      <ZRoute>0</ZRoute>
+   </Portee>
+   <Portee>
+      <Longueur>23</Longueur>
+      <Angle>279</Angle>
+      <SuppG>NCBT05</SuppG>
+      <SuppD>NC0002</SuppD>
+      <Route>1</Route>
+      <PosRoute>18</PosRoute>
+      <ZRoute>0</ZRoute>
+   </Portee>
+   <Portee>
+      <Longueur>38</Longueur>
+      <Angle>281</Angle>
+      <SuppG>NC0002</SuppG>
+      <SuppD>NCBT06</SuppD>
+      <Route>1</Route>
+      <PosRoute>35</PosRoute>
+      <ZRoute>0</ZRoute>
+   </Portee>
+   <Portee>
+      <Longueur>29</Longueur>
+      <Angle>276</Angle>
+      <SuppG>NCBT06</SuppG>
+      <SuppD>NC0003</SuppD>
+      <Route>1</Route>
+      <PosRoute>25</PosRoute>
+      <ZRoute>0</ZRoute>
+   </Portee>
+   <Portee>
+      <Longueur>61</Longueur>
+      <Angle>280</Angle>
+      <SuppG>NCBT05</SuppG>
+      <SuppD>NCBT06</SuppD>
+      <Route>1</Route>
+      <PosRoute>57</PosRoute>
+      <ZRoute>0</ZRoute>
+   </Portee>
+   <Portee>
+      <Longueur>22</Longueur>
+      <Angle>179</Angle>
+      <SuppG>NCBT05</SuppG>
+      <SuppD>NC0004</SuppD>
+      <Route>1</Route>
+      <PosRoute>11</PosRoute>
+      <ZRoute>0</ZRoute>
+   </Portee>
+</Portees>
+<!--Lignes électriques-->
+<LignesBT>
+   <LigneBT>
+      <TypeConducteur>N</TypeConducteur>
+      <Conducteur>CU 40 1+3+1         </Conducteur>
+      <Zone>AGGLOMERATION</Zone>
+      <Tension>16</Tension>
+      <APoser>0</APoser>
+      <Porteq>39</Porteq>
+      <Supports>
+         <Support>NC0001</Support>
+         <Armement>3</Armement>
+         <DecalAccro>8</DecalAccro>
+         <Support>NCBT05</Support>
+         <Armement>2</Armement>
+         <DecalAccro>-16</DecalAccro>
+      </Supports>
+      <Portees>
+         <Portee>39</Portee>
+      </Portees>
+      <PorteeReleveeIndice>-1</PorteeReleveeIndice>
+      <Couleur>#000080</Couleur>
+      <GIS_UID>1</GIS_UID>
+</LigneBT>
+   <LigneBT>
+      <TypeConducteur>I</TypeConducteur>
+      <Conducteur>BT 3*150+70+16</Conducteur>
+      <Parametre>70</Parametre>
+      <APoser>0</APoser>
+      <Porteq>23</Porteq>
+      <Supports>
+         <Support>NCBT05</Support>
+         <DecalAccro>-25</DecalAccro>
+         <Support>NC0002</Support>
+         <DecalAccro>-25</DecalAccro>
+      </Supports>
+      <Portees>
+         <Portee>23</Portee>
+      </Portees>
+      <PorteeReleveeIndice>-1</PorteeReleveeIndice>
+      <Couleur>#000080</Couleur>
+      <GIS_UID>2</GIS_UID>
+</LigneBT>
+   <LigneBT>
+      <TypeConducteur>I</TypeConducteur>
+      <Conducteur>BT  3*70+54+16</Conducteur>
+      <Parametre>278</Parametre>
+      <APoser>0</APoser>
+      <Porteq>61</Porteq>
+      <Supports>
+         <Support>NCBT05</Support>
+         <DecalAccro>-75</DecalAccro>
+         <Support>NCBT06</Support>
+         <DecalAccro>-25</DecalAccro>
+      </Supports>
+      <Portees>
+         <Portee>61</Portee>
+      </Portees>
+      <PorteeReleveeIndice>-1</PorteeReleveeIndice>
+      <Couleur>#000080</Couleur>
+      <GIS_UID>3</GIS_UID>
+</LigneBT>
+   <LigneBT>
+      <TypeConducteur>N</TypeConducteur>
+      <Conducteur>CU 40 1+3+1         </Conducteur>
+      <Zone>ECART</Zone>
+      <Tension>18</Tension>
+      <APoser>0</APoser>
+      <Porteq>44,52</Porteq>
+      <Supports>
+         <Support>NCBT05</Support>
+         <Armement>2</Armement>
+         <DecalAccro>-16</DecalAccro>
+         <Support>NC0004</Support>
+         <Armement>3</Armement>
+         <DecalAccro>8</DecalAccro>
+      </Supports>
+      <Portees>
+         <Portee>22</Portee>
+         <Portee>56</Portee>
+         <Portee>31</Portee>
+      </Portees>
+      <PorteeReleveeIndice>-1</PorteeReleveeIndice>
+      <Couleur>#000080</Couleur>
+      <GIS_UID>4</GIS_UID>
+</LigneBT>
+   <LigneBT>
+      <TypeConducteur>I</TypeConducteur>
+      <Conducteur>BT 3*150+70+16</Conducteur>
+      <Parametre>109</Parametre>
+      <APoser>0</APoser>
+      <Porteq>35,74</Porteq>
+      <Supports>
+         <Support>NC0002</Support>
+         <DecalAccro>-25</DecalAccro>
+         <Support>NCBT06</Support>
+         <DecalAccro>-25</DecalAccro>
+         <Support>NC0003</Support>
+         <DecalAccro>-25</DecalAccro>
+      </Supports>
+      <Portees>
+         <Portee>38</Portee>
+         <Portee>29</Portee>
+         <Portee>38</Portee>
+      </Portees>
+      <PorteeReleveeIndice>-1</PorteeReleveeIndice>
+      <Couleur>#000080</Couleur>
+      <GIS_UID>5</GIS_UID>
+</LigneBT>
+</LignesBT>
+<!--Lignes Telecom Coaxial et Fibre-->
+<LignesTCF>
+</LignesTCF>
+<Folios>
+</Folios>
+</Etude>
