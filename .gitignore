@@ -1,3 +1,6 @@
 node_modules
 comac.json
 test.csv
+.DS_store
+package-lock.json
+.gitignore
