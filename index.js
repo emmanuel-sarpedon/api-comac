@@ -2,7 +2,7 @@ const xml2js = require("xml2js");
 const fs = require("fs");
 const readline = require("readline");
 
-let xml = fs.readFileSync("./assets/33243-LIB-PMZ-19928.PCM", "utf8");
+let xml = fs.readFileSync("./assets/47032-AGE-PMZ-02378.PCM", "utf8");
 
 xml2js.parseString(xml, { mergeAttrs: true }, (err, result) => {
   //json = JSON.stringify(result, null, 2);
@@ -10,15 +10,31 @@ xml2js.parseString(xml, { mergeAttrs: true }, (err, result) => {
   //fs.writeFileSync("comac.json", json);
 });
 
-console.log(json.Etude.Supports[0].Support[0]);
+const supports = json.Etude.Supports[0].Support;
+
+let supportsToExport = "Name;Hauteur;Classe;Effort;X;Y\n";
+
+//console.log(json.Etude.Supports[0].Support[0]);
+
+// ! console.log(supports[2].NonCalcule[0] === "1");
+
+for (let i = 0; i < supports.length; i++) {
+  if (supports[i].optBandeauVertAPoser[0] === "1") {
+    supportsToExport += `${supports[i].Nom};${supports[i].Hauteur};${supports[i].Classe};${supports[i].Effort};${supports[i].X};${supports[i].Y};\n`;
+  }
+}
+
+console.log(supportsToExport);
+// console.log(supports);
 
 // let test = "Ceci;est;un;test\n0;2;3;4";
 // fs.writeFileSync("test.csv", test);
 //console.log(test);
 
 /**
+ * ? [Object].Etude.Supports[0].Support[i] --> there is only one value in Supports array
 {
-  Nom: [ 'NC0001' ],
+  * ! Nom: [ 'NC0001' ],
   Facade: [ '0' ],
   Nature: [ 'BE' ],
   Hauteur: [ '11' ], 
