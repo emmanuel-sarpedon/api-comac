@@ -1,4 +1,22 @@
-// todo: select directory with readline ?
+const pcm2json = require("./pcm2json");
+
+const pcm2csv = (path) => {
+  let csv = "Nom;Hauteur;Classe;Effort;BandeauVertAPoser;X;Y"; // .csv heading
+  let json = pcm2json(path);
+  const pole = json.Etude.Supports[0].Support; // ? there is only one value in "Supports" array
+  for (let i = 0; i < pole.length; i++) {
+    csv += "\n" + pole[i].Nom[0] + ";";
+    csv += pole[i].Hauteur[0] + ";";
+    csv += pole[i].Classe[0] + ";";
+    csv += pole[i].Effort[0] + ";";
+    csv += pole[i].optBandeauVertAPoser[0] + ";";
+    csv += pole[i].X[0] + ";";
+    csv += pole[i].Y[0] + ";";
+  }
+  return csv;
+};
+
+module.exports = pcm2csv;
 
 /** .PCM pole 
  * ? [Object].Etude.Supports[0].Support[i] --> there is only one value in Supports array
@@ -41,11 +59,3 @@
   NbRaccordementsCoaxial: [ '0' ],
   NbRaccordementsFibre: [ '0' ]
   */
-
-/** BETTER COMMENTS METHOD
- * *important
- * !très important
- * ?question
- * todo:a faire
- * @param parametre
- */
