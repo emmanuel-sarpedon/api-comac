@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "fs": "*",
-    "recursive-readdir": "^2.2.2",
+    "recursive-readdir-sync": "^1.0.6",
     "xml2js": "^0.4.23"
   }
 }
