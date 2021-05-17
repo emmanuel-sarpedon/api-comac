@@ -1,13 +1,13 @@
 {
-  "name": "comac",
+  "name": "api-comac",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript functions to extract data from .pcm files (COMAC)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emmanuel SARPEDON",
   "license": "ISC",
   "dependencies": {
     "fs": "*",

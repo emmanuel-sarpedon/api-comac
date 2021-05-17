@@ -1,9 +1,5 @@
 node_modules
-comac.json
-test.csv
 .DS_store
 package-lock.json
-.gitignore
-node-test.js
 waste
-assets
+test.js

@@ -1,9 +1,61 @@
+// $$ -- DEPENDENCIES -- $$
+const readline = require("readline");
 const fs = require("fs");
-const rp2csv = require("./lib/recursive-pcm2csv");
+const pcm2csv = require("./lib/recursive-pcm2csv");
+const getFiles = require("./lib/getFilesWithExpectedExtension");
 
-try {
-  fs.appendFileSync("./waste/comac.csv", rp2csv("/Volumes/Windows/00-Engie"));
-  console.log("File successfully created !");
-} catch (error) {
-  console.log(error.message);
-}
+// $$ -- HEADING-- $$
+const package = JSON.parse(fs.readFileSync("./package.json", "utf8"));
+const heading = `
+---------------------------------------------
+Generate .csv files from .pcm files data
+---------------------------------------------
+Version : ${package.version}
+Description : ${package.description}
+Author : ${package.author}
+License : ${package.license}
+---------------------------------------------`;
+
+// $$ -- APP -- $$
+
+console.log(heading);
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Quel est le répertoire source ? \n", async (res) => {
+  try {
+    console.log(`Génération .csv depuis : ${res}`);
+    const files = getFiles(res, "pcm");
+    console.log(`${files.length} fichier(s) .pcm trouvés !`);
+    const csv = pcm2csv(res);
+    rl.question(
+      "Dans quel répertoire enregistrer le .csv ? \n",
+      async (dir) => {
+        try {
+          rl.question(
+            "Nommage du fichier (ne pas préciser d'extension) : ",
+            async (file) => {
+              await fs.appendFileSync(`${dir}/${file}.csv`, csv);
+              console.log(
+                `Fichier bien créé : ${dir.split("/").pop()}/${file}`
+              );
+              rl.close();
+            }
+          );
+        } catch (error) {
+          console.log(`Le script a planté ... ! Error : ${error.message}
+        `);
+          rl.close();
+        }
+      }
+    );
+    //setTimeout(() => console.log("Traitement en cours..."), 3000);
+  } catch (error) {
+    console.log(`Erreur... : ${error.message}
+    `);
+    rl.close();
+  }
+});
