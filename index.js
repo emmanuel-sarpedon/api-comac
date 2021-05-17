@@ -5,15 +5,15 @@ const pcm2csv = require("./lib/recursive-pcm2csv");
 const getFiles = require("./lib/getFilesWithExpectedExtension");
 
 // $$ -- HEADING-- $$
-const package = JSON.parse(fs.readFileSync("./package.json", "utf8"));
+
 const heading = `
 ---------------------------------------------
-Generate .csv files from .pcm files data
+PCM to CSV
 ---------------------------------------------
-Version : ${package.version}
-Description : ${package.description}
-Author : ${package.author}
-License : ${package.license}
+Version : 0.0.1
+Description : Generate .csv files from .pcm files data
+Author : Emmanuel SARPEDON
+License : ISC
 ---------------------------------------------`;
 
 // $$ -- APP -- $$
@@ -46,15 +46,13 @@ rl.question("Quel est le répertoire source ? \n", async (res) => {
             }
           );
         } catch (error) {
-          console.log(`Le script a planté ... ! Error : ${error.message}
-        `);
+          console.log(`Le script a planté ... ! Error : ${error.message}`);
           rl.close();
         }
       }
     );
   } catch (error) {
-    console.log(`Erreur... : ${error.message}
-    `);
+    console.log(`Erreur... : ${error.message}`);
     rl.close();
   }
 });
