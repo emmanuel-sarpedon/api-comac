@@ -52,7 +52,6 @@ rl.question("Quel est le répertoire source ? \n", async (res) => {
         }
       }
     );
-    //setTimeout(() => console.log("Traitement en cours..."), 3000);
   } catch (error) {
     console.log(`Erreur... : ${error.message}
     `);
